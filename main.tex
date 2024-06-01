@@ -1,0 +1,52 @@
+\documentclass[12pt]{article}
+\usepackage[UTF8]{ctex}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[yyyymmdd]{datetime}
+
+\newcommand{\sname}{张三}  % your name
+\newcommand{\sid}{12312345}  % your student ID
+\newcommand{\cid}{CS109} % course ID (not mandatory)
+\newcommand{\cname}{Introduction to Computer Programming}  % course name
+
+\begin{document}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{header.png}
+    \label{fig:example}
+\end{figure}
+
+\begin{center}
+    \Large Undergraduate Students Declaration Form
+\end{center}
+
+\vspace{1cm}
+
+This is \underline{\hspace{1cm}\sname\hspace{1cm}} (student ID: \underline{\hspace{1cm}\sid\hspace{1cm}}), who has enrolled in \underline{\hspace{1cm}\cid ~ \cname\hspace{1cm}} course of the Department of Computer Science and Engineering. I have read and understood the regulations on courses according to “Regulations on Academic Misconduct in courses for Undergraduate Students in the Department of Computer Science and Engineering”. I promise that I will follow these regulations during the study of this course.
+
+\vspace{1cm}
+
+\noindent
+\textbf{Regulations:}
+\begin{itemize}
+    \item If plagiarism is found in a student’s assignments, course projects or exams, the corresponding assignment, course project or exam will receive a score of 0. If the same student is found to have plagiarized for the second time in the same course, the grade for that course will be 0 points.
+    \item If a student does not sign the Assignment Declaration Form or cheats in the course, including regular assignments, midterms, final exams, etc., in addition to the grade penalty, the student will not be allowed to enroll in the two CS majors through 1 + 3 mode and cannot receive any recommendation for postgraduate admission, exam exemption, and all other academic awards.
+\end{itemize}
+
+\vspace{1cm}
+
+\hfill Signature:
+\begin{minipage}{2.5cm}
+    \includegraphics[height=1.5\baselineskip]{signature.png}
+\end{minipage}
+
+~
+
+\hfill Date: \today
+
+\end{document}
